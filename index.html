@@ -1,0 +1,93 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Source Sans Pro:200|Share+Tech' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type = "text/css" href="special.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("#main").delay(100).fadeIn("slow");	
+	
+
+
+    $("#b1").click(function(){
+		$("#main,#resume,#about").fadeOut("slow");
+		
+        $("#projects").delay(800).fadeIn("slow");
+    });	
+   $("#b2").click(function(){
+		$("#main,#projects,#about").fadeOut("slow");
+        $("#resume").delay(800).fadeIn("slow");
+    });	
+
+	$("#a1").click(function(){
+		$("#main,#resume,#about").fadeOut("slow");
+		
+        $("#projects").delay(800).fadeIn("slow");
+    });	
+   $("#a2").click(function(){
+		$("#main,#projects,#about").fadeOut("slow");
+        $("#resume").delay(800).fadeIn("slow");
+    });	
+	$("#a3").click(function(){
+		$("#resume,#projects,#about").fadeOut("slow");
+        $("#main").delay(800).fadeIn("slow");
+    });	
+	$("#a4").click(function(){
+		$("#resume,#projects,#about").fadeOut("slow");
+        $("#main").delay(800).fadeIn("slow");
+    });	
+  
+
+});
+</script>
+
+</head>
+<body>
+<div id="main"><h1>Stefen Lewis<br><span id = "small"class="small">Game Developer & Designer</span></h1>
+<div id = "buttons"><p><a href="#" id="b1">Projects</a> <a href="#" id="b2">Resume</a></p></div>
+<center><p>Tiny Blurb about yourself</p>
+<p>Email: somethingsomething@email.com<br>Phone:###-###-####</p></center></div>
+
+<div id = "projects"><h1>Projects<br><span id = "small"class="small"><a href="#" id="a3">Home</a><a href="#" id="a2">Resume</a></span></h1>
+<!--Add Information here about your projects-->
+<div id="area">
+<div class="grid">
+<figure class="effect-lily">
+		<img src="asset/image1.png" alt="img01" width="500px"/>
+		<figcaption>
+			<h2>Spirit of the Forest</h2>
+			<!--SPECIFIC DETAILS ABOUT SPIRIT OF THE FOREST BETWEEN THE P TAGS-->
+			<p> 
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			</p>
+			<br>
+			
+		</figcaption>			
+	</figure>
+	<figure class="effect-lily">
+		<img src="asset/image2.png" alt="img01" width="500px"/>
+		<figcaption>
+			<h2>City of Danger</h2>
+			<!--SPECIFIC DETAILS ABOUT City of Danger BETWEEN THE P TAGS-->
+			<p>
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			</p><br>
+			
+		</figcaption>			
+	</figure>
+	</div>
+
+</div>
+</div>
+<div id = "resume"><h1>Resume<br><span id = "small" class="small"><a href="#" id="a4">Home</a> <a href="#" id="a1">Projects</a></span></h1>
+
+<!---ADD INFORMATION HERE -->
+
+</div>
+</body>
+
+
+
+</html>

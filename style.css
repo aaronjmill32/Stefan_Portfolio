@@ -1,0 +1,97 @@
+body{
+background-color:black;
+}
+
+#main h1{
+margin-top:150px;
+color:#CCC;
+text-align:center;
+font-family:'Source Sans Pro', sans-serif;
+font-size:150px;}
+
+h1{
+color:#B11623;
+text-align:center;
+font-family:'Source Sans Pro', sans-serif;
+font-size:150px;}
+
+.small{
+color:#B11623;
+font-size:45px;
+}
+
+p{
+color:#CCC;
+font-family: 'Share Tech', sans-serif;
+}
+
+#buttons p{
+font-size:20px;
+text-align:center;
+position:relative;
+top:-60;
+}
+
+#buttons a{
+transition: 0.3s ease;
+cursor:pointer;
+
+font-size:30px;
+margin:23px;
+margin-top:19px;
+padding:20px;
+padding-top:10px;
+padding-bottom:10px;
+color:#ccc;
+text-decoration:none;
+border-style: double;
+border-color:#ccc;
+}
+
+#buttons a:hover{
+font-size:31px;
+color:#EEE;
+border-color:#eee;
+}
+
+a{
+color:#ccc;
+text-decoration:none;
+font-size:20px;
+padding-left:20px;
+font-family:'Share Tech';
+}
+
+a:hover{
+color:#F7F099;
+}
+h2{
+font-family:'Source Sans Pro', sans-serif;
+font-size:60px;
+}
+
+#main{
+display:none;
+}
+
+#projects{
+display:none;
+}
+#area{
+  margin: 0 auto; 
+  width:85%;
+  margin-left:225px;
+
+}
+#column{
+width:1000px;
+background-color:green;}
+#column2{
+width:1000px;
+background-color:blue;}
+
+
+#resume{
+display:none;
+}
+
